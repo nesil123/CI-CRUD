@@ -1,0 +1,178 @@
+CRITICAL - 2023-02-28 05:22:05 --> Cannot use object of type App\Models\Ci_crud as array
+in APPPATH\Controllers\Home.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 05:22:33 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-28 07:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-28 07:27:24 --> CSRF token verified.
+INFO - 2023-02-28 07:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-28 07:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-28 07:31:30 --> CSRF token verified.
+INFO - 2023-02-28 07:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-28 07:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 07:31:44 --> Undefined variable: srdiv
+in APPPATH\Views\item_list.php on line 185.
+ 1 APPPATH\Views\item_list.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: srdiv', 'APPPATH\\Views\\item_list.php', 185, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('item_list', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('item_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->item_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-28 07:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 07:32:09 --> Undefined variable: srdiv
+in APPPATH\Views\item_list.php on line 185.
+ 1 APPPATH\Views\item_list.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: srdiv', 'APPPATH\\Views\\item_list.php', 185, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('item_list', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('item_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->item_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-28 07:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 07:32:30 --> Undefined variable: srdiv
+in APPPATH\Views\item_list.php on line 185.
+ 1 APPPATH\Views\item_list.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: srdiv', 'APPPATH\\Views\\item_list.php', 185, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('item_list', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('item_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->item_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-28 07:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 07:32:32 --> Undefined variable: srdiv
+in APPPATH\Views\item_list.php on line 185.
+ 1 APPPATH\Views\item_list.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: srdiv', 'APPPATH\\Views\\item_list.php', 185, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('item_list', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('item_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->item_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-28 07:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 07:33:06 --> Undefined variable: srdiv
+in APPPATH\Views\item_list.php on line 185.
+ 1 APPPATH\Views\item_list.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: srdiv', 'APPPATH\\Views\\item_list.php', 185, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('item_list', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('item_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->item_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-28 07:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 07:33:08 --> Undefined variable: srdiv
+in APPPATH\Views\item_list.php on line 185.
+ 1 APPPATH\Views\item_list.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: srdiv', 'APPPATH\\Views\\item_list.php', 185, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('item_list', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('item_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->item_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-28 07:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 07:33:17 --> Undefined variable: srdiv
+in APPPATH\Views\item_list.php on line 185.
+ 1 APPPATH\Views\item_list.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: srdiv', 'APPPATH\\Views\\item_list.php', 185, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('item_list', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('item_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->item_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-28 07:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 07:34:06 --> Undefined variable: un
+in APPPATH\Views\item_list.php on line 189.
+ 1 APPPATH\Views\item_list.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: un', 'APPPATH\\Views\\item_list.php', 189, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('item_list', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('item_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->item_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:10:02 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:10:34 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-28 08:50:55 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in G:\wamp\www\CI_CRUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 G:\wamp\www\CI_CRUD\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 G:\wamp\www\CI_CRUD\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 G:\wamp\www\CI_CRUD\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 G:\wamp\www\CI_CRUD\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 G:\wamp\www\CI_CRUD\system\Model.php(839): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\wamp\www\CI_CRUD\app\Controllers\Home.php(81): CodeIgniter\Model->__call('get', Array)
+#6 G:\wamp\www\CI_CRUD\system\CodeIgniter.php(934): App\Controllers\Home->item_list()
+#7 G:\wamp\www\CI_CRUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 G:\wamp\www\CI_CRUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\wamp\www\CI_CRUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-28 08:50:55 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `product_name` = :product_name:', [...], false)
+ 2 SYSTEMPATH\Model.php(839): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(81): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->item_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 11:12:53 --> Call to undefined method App\Models\Ci_crud::login_valid
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Model->__call('login_valid', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 11:13:02 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 11:23:45 --> Call to undefined method App\Models\Ci_crud::login_valid
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Model->__call('login_valid', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
